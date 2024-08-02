@@ -1,5 +1,6 @@
 # CoCo
-Context Correlation Discrepancy Analysis for Graph Anomaly Detection
+The source code of paper “Context Correlation Discrepancy Analysis for Graph Anomaly Detection”.
+
 ## Requirments
 This code requires the following
 Python>=3.7
