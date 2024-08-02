@@ -1,0 +1,134 @@
+cora: # o 90 8930	0.0057	0.5737	0.0299	51
+  lr: 0.002
+  n_hidden: 32
+  hops: 2
+  n_layers: 5
+  pe_dim: 15
+  n_epochs: 300
+  alpha: 0.5
+  lamda: 0.001
+  gma: 1
+
+citeseer: # o 92.15
+  lr: 0.002
+  n_hidden: 32
+  n_layers: 2
+  hops: 2
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 1
+pubmed: # o 0.9034+0.0161
+  lr: 0.002
+  n_hidden: 16
+  n_layers: 4
+  hops: 6
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 5
+BlogCatalog: #79
+  lr: 0.002
+  n_hidden: 32
+  hops: 1
+  n_layers: 4
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 1
+Flickr: #79.95 o
+  lr: 0.002
+  n_hidden: 32
+  hops: 1
+  n_layers: 5
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 5
+ACM: #88
+  lr: 0.002
+  n_hidden: 16
+  hops: 6
+  n_layers: 5
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 3
+books: #74 o
+  lr: 2e-2
+  n_hidden: 8 # 8
+  hops: 12 # 12
+  n_layers: 3
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 5
+disney: # o
+  lr: 2e-2
+  n_hidden: 16
+  hops: 12
+  n_layers: 3
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 6
+  gma: 13 #5
+enron: #  0.8536+0.0176
+  lr: 2e-3
+  n_hidden: 128
+  hops: 8
+  n_layers: 4
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  gma: 5
+reddit: # 61.92 6490
+  lr: 2e-2
+  n_hidden: 128
+  hops: 3
+  n_layers: 3
+  pe_dim: 15
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0
+  gma: 1
+weibo: # o
+  lr: 2e-2
+  n_hidden: 128
+  hops: 6
+  n_layers: 3
+  pe_dim: 15
+  n_epochs: 1000
+  alpha: 0.5
+  lamda: 10
+  gma: 15
+inj_cora: # o 90 8930	0.0057	0.5737	0.0299	51
+  lr: 0.002
+  n_hidden: 8
+  hops: 2
+  n_layers: 4
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  pe_dim: 15
+  gma: 1
+  normal_class: 1
+
+inj_amazon:
+  lr: 0.001
+  n_hidden: 8
+  hops: 2
+  n_layers: 4
+  n_epochs: 2000
+  alpha: 0.5
+  lamda: 0.001
+  pe_dim: 15
+  gma: 3
+  normal_class: 0
